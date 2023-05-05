@@ -17,3 +17,4 @@ docker inspect limit512 | grep Memory
 docker rm limit512
 <h4>Komenda do usuniecia obrazu</h4>
 docker rmi lab8docker
+
