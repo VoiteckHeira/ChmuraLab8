@@ -13,3 +13,7 @@ docker run -it --name limit512 --memory="512m" --mount source=RemoteVol,target=/
 <h4>Komenda do sprawdzenia ilosci przydzielonej pamieci dla kontenera <i>limit512</i></h4>
 docker inspect limit512 | grep Memory
 
+<h4>Komenda do usuniecia kontenera</h4>
+docker rm limit512
+<h4>Komenda do usuniecia obrazu</h4>
+docker rmi lab8docker
